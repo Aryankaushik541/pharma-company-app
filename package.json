@@ -9,7 +9,8 @@
     "web": "expo start --web",
     "frontend": "expo start",
     "backend": "cd backend && npm start",
-    "install-all": "npm install && cd backend && npm install"
+    "install-all": "npm install && cd backend && npm install",
+    "kill-port": "node kill-port.js"
   },
   "dependencies": {
     "expo": "~49.0.0",
